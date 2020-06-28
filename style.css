@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  font-family: 'Lobster', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  background: whitesmoke;
+}
+
+body h1 {
+  margin: 2rem;
+  font-size: 4rem;
+  text-align:center;
+}
+
+.loader {
+  position: fixed;
+  top: 25vh;
+}
+
+.image-container {
+  margin: 1rem 30%;
+}
+
+.image-container img {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 905px) {
+  body h1 {
+    font-size: 3rem;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
+
+@media screen and (max-width: 698px) {
+  body h1 {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 492px) {
+  body h1 {
+    font-size: 1.5rem;
+    width: 60vw;
+  }
+}
