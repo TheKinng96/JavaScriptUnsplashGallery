@@ -48,11 +48,19 @@ body h1 {
   body h1 {
     font-size: 2rem;
   }
+
+  .loader img{
+    height: 10rem;
+  }
 }
 
 @media screen and (max-width: 492px) {
   body h1 {
     font-size: 1.5rem;
     width: 60vw;
+  }
+
+  .loader img{
+    height: 8rem;
   }
 }
